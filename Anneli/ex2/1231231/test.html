@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title></title>
+</head>
+<body id="book-list-page">
+    <div id="root">
+        <nav><div>
+    <a href="?cmd=book-list" id="book-list-link">Raamatud</a>
+    <span>|</span>
+    <a href="?cmd=book-form" id="book-form-link">Lisa raamat</a>
+    <span>|</span>
+    <a href="?cmd=author-list" id="author-list-link">Autorid</a>
+    <span>|</span>
+    <a href="?cmd=author-form" id="author-form-link">Lisa autor</a>
+</div>
+</nav>
+        <main>
+            <div id="list-table">
+        <div class="title-cell header-cell">Pealkiri</div>
+        <div class="author-cell header-cell">Autorid</div>
+        <div class="grade-cell header-cell score-column">Hinne</div>
+        <div class="flex-break header-divider"></div>
+        <div>
+            <a href="?cmd=book-form&id=1">Head First HTML and CSS</a>
+        </div>
+        <div>
+                Elisabeth Robson,
+                Eric Freeman
+        </div>
+        <div class="score-empty score-column">
+            <span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span>
+        </div>
+        <div class="flex-break"></div>
+        <div>
+            <a href="?cmd=book-form&id=2">Learning Web Design</a>
+        </div>
+        <div>
+                Elisabeth Robson
+        </div>
+        <div class="score-empty score-column">
+            <span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span class="score-filled">&#9733;</span><span>&#9733;</span>
+        </div>
+        <div class="flex-break"></div>
+</div>
+        </main>
+        <footer>
+            ICD0007 Näidisrakendus
+        </footer>
+    </div>
+</body>
+</html>
